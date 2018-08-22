@@ -15,7 +15,6 @@ public class MainClass {
         Vertx vertx = Vertx.vertx();
         Router router = Router.router(vertx);
 
-        // Copied from 
         // https://github.com/saffron-technology/vertx-eventbusbridge
         
         //server
