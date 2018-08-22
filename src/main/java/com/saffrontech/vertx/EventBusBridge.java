@@ -365,6 +365,11 @@ public class EventBusBridge {
         }
 
         @Override
+        public boolean isSend() {
+            return false;
+        }
+
+        @Override
         public void reply(Object message) {
             this.reply(message, new DeliveryOptions(), null);
         }
